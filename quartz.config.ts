@@ -8,18 +8,25 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "🪴 Quartz 4.0",
-    pageTitleSuffix: "",
+    pageTitle: "Ripples of Mine",
+    pageTitleSuffix: " | overfed with information, but starved of wisdom",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
+    baseUrl: "elmoadorjr.github.io",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
     generateSocialImages: false,
+    social: {
+      twitter: "elmoadorjr",
+      github: "elmoadorjr",
+      linkedin: "elmoadorjr",
+      instagram: "elmoadorjr",
+      tiktok: "@elmoadorjr"
+    },
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
