@@ -1,5 +1,5 @@
 ---
-title: My Worldview
+title: Worldview
 date: YYYY-MM-DD
 tags:
   - worldview
@@ -8,7 +8,7 @@ tags:
   - politics
   - philosophy
 ---
-# My Worldview 🌍  
+# Worldview 🌍  
 Welcome to the foundation of my thoughts, values, and aspirations—a glimpse into how I see and interact with the world. This isn’t a static framework but a living, evolving map of my beliefs, shaped by experiences, learning, and reflection.  
 
 ---

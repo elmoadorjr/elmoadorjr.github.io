@@ -29,7 +29,7 @@ I’m [[Elmo Ador Jr.]], a deep thinking creator and thinker passionate about cr
 [[The Methexis App]] 
 Follow my progress as I bring my app idea to life.
 📜
-[[Github Blog/content/notes/My Worldview]]
+[[Worldview]]
  Dive into my thoughts on the big questions.
  
  📚 [[My Workflow]]
