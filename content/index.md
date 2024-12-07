@@ -32,8 +32,8 @@ Follow my progress as I bring my app idea to life.
 [[Worldview]]
  Dive into my thoughts on the big questions.
  
- 📚 [[My Workflow]]
-  Discover the tools that power my daily productivity.
+ [[My Workflow]]
+Discover the tools that power my daily productivity.
   
 [[Egoism]]
 A note I’m particularly excited about right now. Happy exploring! 🌸
