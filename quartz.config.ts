@@ -1,12 +1,7 @@
 import { QuartzConfig } from "./quartz/cfg"
 import * as Plugin from "./quartz/plugins"
-import { Backlinks } from "./quartz/components"
+import { Backlinks, Head, PageContent, Footer } from "./quartz/components"
 
-/**
- * Quartz 4.0 Configuration
- *
- * See https://quartz.jzhao.xyz/configuration for more information.
- */
 const config: QuartzConfig = {
   configuration: {
     pageTitle: "Ripples of Mine",
@@ -15,15 +10,15 @@ const config: QuartzConfig = {
     enablePopovers: true,
     analytics: {
       provider: "google",
-      googleAnalyticsId: "G-XXXXXXXXXX", // Replace with your Google Analytics ID
+      googleAnalyticsId: "G-XXXXXXXXXX",
     },
     comments: {
       provider: "giscus",
       config: {
         repo: "elmoadorjr/elmoadorjr.github.io",
-        repoId: "", // You'll need to add this after enabling discussions
+        repoId: "",
         category: "Comments",
-        categoryId: "", // You'll need to add this after enabling discussions
+        categoryId: "",
         mapping: "pathname",
         reactionsEnabled: true,
         emitMetadata: false,
@@ -75,6 +70,12 @@ const config: QuartzConfig = {
         },
       },
     },
+    components: {
+      backlinks: Backlinks(),
+      head: Head(),
+      page: PageContent(),
+      footer: Footer(),
+    },
   },
   plugins: {
     transformers: [
@@ -98,7 +99,6 @@ const config: QuartzConfig = {
     ],
     filters: [Plugin.RemoveDrafts()],
     emitters: [
-      Plugin.Backlinks(),
       Plugin.AliasRedirects(),
       Plugin.ComponentResources(),
       Plugin.ContentPage(),
