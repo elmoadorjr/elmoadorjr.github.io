@@ -13,7 +13,21 @@ const config: QuartzConfig = {
     enableSPA: true,
     enablePopovers: true,
     analytics: {
-      provider: "plausible",
+      provider: "google",
+      googleAnalyticsId: "G-XXXXXXXXXX", // Replace with your Google Analytics ID
+    },
+    comments: {
+      provider: "giscus",
+      config: {
+        repo: "elmoadorjr/elmoadorjr.github.io",
+        repoId: "", // You'll need to add this after enabling discussions
+        category: "Comments",
+        categoryId: "", // You'll need to add this after enabling discussions
+        mapping: "pathname",
+        reactionsEnabled: true,
+        emitMetadata: false,
+        theme: "preferred_color_scheme",
+      },
     },
     locale: "en-US",
     baseUrl: "elmoadorjr.github.io",
