@@ -1,6 +1,6 @@
 import { QuartzConfig } from "./quartz/cfg"
 import * as Plugin from "./quartz/plugins"
-import { Backlinks, Head, Footer } from "./quartz/components"
+import { Backlinks, Head, Footer, Comments } from "./quartz/components"
 
 const config: QuartzConfig = {
   configuration: {
@@ -74,6 +74,7 @@ const config: QuartzConfig = {
       backlinks: Backlinks(),
       head: Head(),
       footer: Footer(),
+      comments: Comments(),
     },
   },
   plugins: {
