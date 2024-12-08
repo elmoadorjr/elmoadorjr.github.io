@@ -16,9 +16,9 @@ const config: QuartzConfig = {
       provider: "giscus",
       config: {
         repo: "elmoadorjr/elmoadorjr.github.io",
-        repoId: "",
-        category: "Comments",
-        categoryId: "",
+        repoId: "R_kgDONaYRmw",
+        category: "General",
+        categoryId: "DIC_kwDONaYRm84ClBaH",
         mapping: "pathname",
         reactionsEnabled: true,
         emitMetadata: false,
